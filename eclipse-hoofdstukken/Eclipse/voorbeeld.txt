@@ -1,0 +1,3 @@
+We zitten nu aan hoofdstuk 4
+Dit is de 2de line
+Dit is een printDit is de volgende print

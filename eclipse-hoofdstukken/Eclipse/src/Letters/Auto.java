@@ -1,0 +1,13 @@
+package Letters;
+
+public class Auto {
+	public static void main(String[] args) {
+		int afstand;
+		int snelheid = 80;
+		int tijd = 14;
+		afstand = snelheid * tijd;
+		System.out.println(afstand);
+	}
+
+}
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
