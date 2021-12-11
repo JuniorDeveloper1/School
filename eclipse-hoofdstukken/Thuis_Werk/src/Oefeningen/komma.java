@@ -1,8 +1,13 @@
 package Oefeningen;
 
+import java.util.Scanner;
+
 public class komma {
 	public static void main(String[] args) {
-		String i = "234,5";
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Wat is uw getal? Defineer uw Komma met ,");
+		String i = scanner.next();
 		
 		String kept = i.substring( 0, i.indexOf(","));
 		String remainder = i.substring(i.indexOf(",")+1, i.length());
