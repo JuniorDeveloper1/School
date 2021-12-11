@@ -16,19 +16,18 @@ public class Shooting {
 		return finishing;
 	}
 	
-	
-	public static void setHeading(int heading) {
+	public static final void setHeading(int heading) {
 		Shooting.heading = heading;
 	}
-	public static void setShotPower(int shotPower) {
+	public static final void setShotPower(int shotPower) {
 		Shooting.shotPower = shotPower;
 	}
-	public static void setFinishing(int finishing) {
+	public static final void setFinishing(int finishing) {
 		Shooting.finishing = finishing;
 	}
 	
 	
-	
+
 	
 
 }

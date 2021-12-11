@@ -14,15 +14,16 @@ public class Defence {
 		return standTackle;
 	}
 	
-	public static void setMarking(int marking) {
+	public static final void setMarking(int marking) {
 		Defence.marking = marking;
 	}
-	public static void setSlideTackle(int slideTackle) {
+	public static final void setSlideTackle(int slideTackle) {
 		Defence.slideTackle = slideTackle;
 	}
-	public static void setStandTackle(int standTackle) {
+	public static final void setStandTackle(int standTackle) {
 		Defence.standTackle = standTackle;
 	}
+
 	
 	
 

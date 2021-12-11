@@ -14,16 +14,17 @@ public class Passing {
 		return longPass;
 	}
 	
-	
-	public static void setPassing(int passing) {
+	public static final void setPassing(int passing) {
 		Passing.passing = passing;
 	}
-	public static void setShortPass(int shortPass) {
+	public static final void setShortPass(int shortPass) {
 		Passing.shortPass = shortPass;
 	}
-	public static void setLongPass(int longPass) {
+	public static final void setLongPass(int longPass) {
 		Passing.longPass = longPass;
 	}
+	
+
 	
 	
 
