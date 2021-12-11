@@ -18,13 +18,13 @@ public class Physical {
 	
 	
 	public static void setAcceleration(int acceleration) {
-		acceleration = acceleration;
+		Physical.acceleration = acceleration;
 	}
 	public static void setStamina(int stamina) {
-		stamina = stamina;
+		Physical.stamina = stamina;
 	}
 	public static void setStrenght(int strenght) {
-		strenght = strenght;
+		Physical.strenght = strenght;
 	}
 	
 

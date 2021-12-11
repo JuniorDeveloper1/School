@@ -11,10 +11,10 @@ public class BallSkills {
 		return dribbeling;
 	}
 	public static void setBallcontrol(int ballcontrol) {
-		ballcontrol = ballcontrol;
+		BallSkills.ballcontrol = ballcontrol;
 	}
 	public static void setDribbeling(int dribbeling) {
-		dribbeling = dribbeling;
+		BallSkills.dribbeling = dribbeling;
 	}
 	
 	

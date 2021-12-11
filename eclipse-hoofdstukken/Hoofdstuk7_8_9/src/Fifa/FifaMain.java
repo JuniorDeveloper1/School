@@ -3,6 +3,9 @@ package Fifa;
 import java.util.Scanner;
 
 import Fifa.StatsManager.BallSkills;
+import Fifa.StatsManager.Defence;
+import Fifa.StatsManager.Physical;
+import Fifa.StatsManager.Shooting;
 
 public class FifaMain {
 	/**
@@ -16,15 +19,15 @@ public class FifaMain {
 	
 	
 	public static void main(String[] args) {
+		  
+		
+		
 		//Vraag voor als je Stats Of Results wilt ingeven.
 		System.out.println("Typ 'Results' voor Resultaten, 'Stats' om de stats in te geven");
 		String totalResults = scanner.next();
 		
 		//De scanner test
-		if(totalResults.equals("Results")) {
-			Results.results();
-			
-		} else if(totalResults.equals("Stats")) {
+		  if(totalResults.equals("Stats")) {
 			Questions.stats();
 			
 			System.out.println("Voer nu het commando 'Results' voor de resultaten");
@@ -32,11 +35,14 @@ public class FifaMain {
 			if(totalResults.equals("Results")) { Results.results();	}
 			
 			
+		}else if(totalResults.equals("Results")) {
+			Results.results();
+			
 		} else {
 			System.out.println("Argument niet gevonden");
 		}
 		
-		
+		 
 	}
 	
 

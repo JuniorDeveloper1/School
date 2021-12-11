@@ -1,9 +1,11 @@
 package Fifa.StatsManager;
 
 public class TotalSkills {
+	
+	//Alle class getters in een gemiddelde gezet.
 
 	
- private static int defTot;
+private static int defTot;
 private static int balTot;
 private static int pasTot;
 private static int phyTot;

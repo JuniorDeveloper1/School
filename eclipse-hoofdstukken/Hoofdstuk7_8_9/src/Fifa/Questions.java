@@ -17,8 +17,8 @@ public class Questions {
 		System.out.println("Beantwoord volgede vragen in decimalen. Niet onder de komma \n\n");
 		//BallSkills
 		System.out.println("Ballcontrol: ");
-		int ballcont = scanner.nextInt();
-		BallSkills.setBallcontrol(ballcont);
+		int ballcontrol = scanner.nextInt();
+		BallSkills.setBallcontrol(ballcontrol);
 		
 		System.out.println("Dribbeling: ");
 		int dribbeling = scanner.nextInt();
