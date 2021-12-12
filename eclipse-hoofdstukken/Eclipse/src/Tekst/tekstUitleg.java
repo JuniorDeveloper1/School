@@ -23,17 +23,15 @@ public class tekstUitleg {
 		 * String getalS = "2"; 
 		 * int getalSI = Integer.valueOf(getalS); 
 		 * double getalSDouble = Double.valueOf(getalS);
-		 * int getalI = 1; String getalIS = String.valueOf(getalI); ^
+		 * int getalI = 1; 
+		 * String getalIS = String.valueOf(getalI); 
 		 * System.out.println(getalI); 
 		 * voornaam = voornaam + achternaam; 
 		 * voornaam += achternaam; 
 		 * System.out.println(voornaam);
 		 */
 		
-		
-		String print = "Nick";
-		
-			   print = print.indexOf("i",3);
+$
 		
 		System.out.println("aaaaaaataaaaaaaaaaaaaa".lastIndexOf(5));
 		

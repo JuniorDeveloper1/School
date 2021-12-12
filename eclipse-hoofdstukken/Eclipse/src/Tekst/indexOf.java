@@ -9,5 +9,4 @@ public class indexOf {
 		
 		System.out.println(tekst.substring(3, 4));
 	}
-
 }

@@ -36,7 +36,7 @@ public class FifaMain {
 			
 			
 		}else if(totalResults.equals("Results")) {
-			Results.results();
+			Results.totResults();
 			
 		} else {
 			System.out.println("Argument niet gevonden");
