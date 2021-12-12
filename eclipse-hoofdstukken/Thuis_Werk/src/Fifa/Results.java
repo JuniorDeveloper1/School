@@ -13,6 +13,7 @@ public class Results {
 	 */
 	
 	public static void results () {
+		
 		System.out.println("Dribbeling = " + TotalSkills.ballSkills() ); 
 		
 		System.out.println("Defence = " + TotalSkills.defence() );
@@ -23,8 +24,8 @@ public class Results {
 		
 		System.out.println("Shooting = " + TotalSkills.shooting());
 		
-		
-		
 	}
+	
+
 
 }

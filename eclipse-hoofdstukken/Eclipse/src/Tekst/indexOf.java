@@ -6,6 +6,8 @@ public class indexOf {
 
 		System.out.println(tekst.indexOf("s"));
 		// T = 0 ; E = 1 ; 2 = K ; 3 = S ^^
+		
+		System.out.println(tekst.substring(3, 4));
 	}
 
 }
