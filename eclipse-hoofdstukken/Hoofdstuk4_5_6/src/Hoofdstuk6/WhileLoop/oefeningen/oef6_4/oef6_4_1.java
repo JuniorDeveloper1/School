@@ -20,11 +20,13 @@ public class oef6_4_1 {
 
 		while (celcius <= 40) {
 
-		farenheit = (int) (Math.round(9D/5D) * celcius + 32);
+			
+			farenheit = (9/5) * celcius+32;
+		    farenheit = (int)(Math.round((9D/5D) * celcius+32));
 
-		printwriter.println(celcius+" "+farenheit);
-
-		celcius += 5;
+		    printwriter.println(celcius+"    "+farenheit);
+		    celcius+=5;
+		System.out.println(celcius + " " + farenheit);
 		
 		}
 

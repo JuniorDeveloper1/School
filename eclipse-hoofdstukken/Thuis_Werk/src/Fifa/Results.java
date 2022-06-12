@@ -26,7 +26,7 @@ public class Results {
 		
 	}
 	
-	public static void totResults() {TotalSkills.array(); }
+	
 
 
 }

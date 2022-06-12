@@ -2,6 +2,7 @@ package Tekst;
 
 public class tekstUitleg {
 	
+	
 	/*
 	 * int/double/string tekst.valueOf();	| Valueof: Zet de value van een int naar een String over of van een double.
 	 * tekst.lenght();						| Lenght: Telt alles op in de text > V O O R B E E L D >> V = 1 ; O = 2; O = 3; R = 4; B = 5; ....
@@ -30,8 +31,6 @@ public class tekstUitleg {
 		 * voornaam += achternaam; 
 		 * System.out.println(voornaam);
 		 */
-		
-$
 		
 		System.out.println("aaaaaaataaaaaaaaaaaaaa".lastIndexOf(5));
 		
